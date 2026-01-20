@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const API_BASE_URL = ' https://hospital-backend-9h3a.onrender.com';
+const API_BASE_URL = ' https://hospital-backend-9h3a.onrender.com/api';
 
 export const authAPI = {
     register: (data) => axios.post(`${API_BASE_URL}/auth/register`, data),
